@@ -9,7 +9,7 @@
   "scripts": {
     "start": "node app.js",
     "test": "jest",
-    "build": "mkdir dist && copy app.js dist\\"
+    "build": "mkdir dist && copy app.js dic\\"
   },
   "keywords": [],
   "author": "",
