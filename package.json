@@ -9,7 +9,7 @@
   "scripts": {
     "start": "node app.js",
     "test": "jest",
-    "build": "mkdir dist && copy app.js dist\\"
+    "build": "if exist dist rmdir /s /q dist && mkdir dist && copy app.js dist\\"
   },
   "keywords": [],
   "author": "",
